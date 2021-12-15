@@ -1,12 +1,12 @@
 package main
 
 import (
-	"base/db"
-	"base/gnet"
-	"base/log"
-	"command"
 	"gopkg.in/mgo.v2"
 	"net"
+	"netgame/base/db"
+	"netgame/base/gnet"
+	"netgame/base/log"
+	"netgame/command"
 )
 
 var timetick *TimeTick

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"base/log"
-	"base/util"
 	"flag"
+	"netgame/base/log"
+	"netgame/base/util"
 )
 
 var config *util.Config

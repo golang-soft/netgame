@@ -1,8 +1,8 @@
 package main
 
 import (
-	"base/log"
-	"base/util"
+	"netgame/base/log"
+	"netgame/base/util"
 	"sync"
 )
 

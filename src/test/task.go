@@ -1,8 +1,8 @@
 package main
 
 import (
-	"base/gnet"
-	"command"
+	"netgame/base/gnet"
+	"netgame/command"
 )
 
 type MyTask struct {

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"base/log"
-	"base/util"
 	"fmt"
+	"netgame/base/log"
+	"netgame/base/util"
 	"sync"
 	"time"
 )

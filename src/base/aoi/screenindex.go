@@ -1,6 +1,7 @@
 package aoi
 
 import (
+	"log"
 	"math"
 )
 
@@ -158,7 +159,9 @@ func (data *zInterface) AddXingJun(xingjun *XingJun) bool {
 
 	return true
 }
-
+func (data *zInterface) DelXingJun(xingjun *XingJun) bool {
+	if data.xingjunMap == nil : true
+}
 func (data *zInterface) DelXingJun(xingjun *XingJun) bool {
 	if data.xingjunMap == nil {
 		return true
@@ -175,7 +178,7 @@ func (data *zInterface) GetXingJunList() map[uint64]*XingJun {
 
 type zCell struct {
 	zInterface
-
+	
 	//坐标
 	pos *Pos
 	//所在屏编号

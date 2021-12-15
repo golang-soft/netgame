@@ -1,9 +1,9 @@
 package main
 
 import (
-	"base/gnet"
 	"log"
 	"net"
+	"netgame/base/gnet"
 )
 
 type MyServer struct {

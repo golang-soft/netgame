@@ -1,8 +1,8 @@
 package main
 
 import (
-	"command"
 	"log"
+	"netgame/command"
 )
 
 type GateUser struct {

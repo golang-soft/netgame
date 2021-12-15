@@ -1,10 +1,10 @@
 package gnet
 
 import (
-	"base/log"
-	"base/util"
-	"command"
 	"github.com/golang/protobuf/proto"
+	"netgame/base/log"
+	"netgame/base/util"
+	"netgame/command"
 )
 
 type UserMsgFunc func(uint64, proto.Message) bool

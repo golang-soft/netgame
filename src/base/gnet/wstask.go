@@ -2,14 +2,14 @@ package gnet
 
 import (
 	"bytes"
-	"command"
 	"encoding/binary"
 	"github.com/golang/protobuf/proto"
 	"net"
+	"netgame/command"
 	//	"runtime/debug"
-	"base/log"
-	"base/util"
 	"github.com/gorilla/websocket"
+	"netgame/base/log"
+	"netgame/base/util"
 	"sync"
 	"time"
 )

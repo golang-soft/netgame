@@ -1,9 +1,9 @@
 package util
 
 import (
-	"base/log"
 	"encoding/json"
 	"io/ioutil"
+	"netgame/base/log"
 )
 
 /*

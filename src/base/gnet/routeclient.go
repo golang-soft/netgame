@@ -1,7 +1,7 @@
 package gnet
 
 import (
-	"command"
+	"netgame/command"
 )
 
 type RouteClient struct {

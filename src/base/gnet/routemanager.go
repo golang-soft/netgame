@@ -1,9 +1,9 @@
 package gnet
 
 import (
-	"base/log"
-	"command"
 	"github.com/golang/protobuf/proto"
+	"netgame/base/log"
+	"netgame/command"
 	"sync"
 )
 

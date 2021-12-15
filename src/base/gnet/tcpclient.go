@@ -1,15 +1,15 @@
 package gnet
 
 import (
-	"base/log"
-	"base/util"
 	"bytes"
-	"command"
 	"encoding/binary"
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"io"
 	"net"
+	"netgame/base/log"
+	"netgame/base/util"
+	"netgame/command"
 	"sync"
 	"time"
 )

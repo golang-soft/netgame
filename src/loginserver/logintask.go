@@ -1,10 +1,10 @@
 package main
 
 import (
-	"base/gnet"
-	"base/log"
-	"command"
 	"github.com/golang/protobuf/proto"
+	"netgame/base/gnet"
+	"netgame/base/log"
+	"netgame/command"
 )
 
 var tempid uint32 = 1

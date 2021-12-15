@@ -1,8 +1,8 @@
 package gnet
 
 import (
-	"base/log"
-	"command"
+	"netgame/base/log"
+	"netgame/command"
 	"sync"
 )
 

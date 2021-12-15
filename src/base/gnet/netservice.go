@@ -1,10 +1,10 @@
 package gnet
 
 import (
-	"base/log"
-	"command"
 	"math/rand"
 	"net"
+	"netgame/base/log"
+	"netgame/command"
 	"os"
 	"os/signal"
 	"runtime"

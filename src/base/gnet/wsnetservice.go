@@ -1,10 +1,10 @@
 package gnet
 
 import (
-	"base/log"
 	"github.com/gorilla/websocket"
 	"math/rand"
 	"net"
+	"netgame/base/log"
 	"os"
 	"os/signal"
 	"runtime"

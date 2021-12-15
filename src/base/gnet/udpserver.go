@@ -5,7 +5,7 @@ import (
 	kcp "github.com/xtaci/kcp-go"
 	//	"strings"
 	//	"time"
-	"base/log"
+	"netgame/base/log"
 )
 
 /*

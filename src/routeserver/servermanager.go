@@ -1,7 +1,7 @@
 package main
 
 import (
-	"base/log"
+	"netgame/base/log"
 	//	"command"
 	"github.com/golang/protobuf/proto"
 	"sync"

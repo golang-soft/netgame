@@ -1,11 +1,11 @@
 package main
 
 import (
-	"base/gnet"
-	"base/log"
-	"command"
 	"github.com/golang/protobuf/proto"
 	"gopkg.in/mgo.v2/bson"
+	"netgame/base/gnet"
+	"netgame/base/log"
+	"netgame/command"
 )
 
 type RouteManager struct {

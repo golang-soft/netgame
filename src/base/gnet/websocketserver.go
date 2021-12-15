@@ -1,11 +1,11 @@
 package gnet
 
 import (
-	"base/log"
 	"fmt"
 	"github.com/gorilla/websocket"
 	"net"
 	"net/http"
+	"netgame/base/log"
 )
 
 //var upgrader = websocket.Upgrader{} // use default options

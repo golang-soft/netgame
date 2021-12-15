@@ -1,9 +1,9 @@
 package main
 
 import (
-	"base/gnet"
-	"base/log"
 	"net"
+	"netgame/base/gnet"
+	"netgame/base/log"
 )
 
 var serverManager *ServerManager

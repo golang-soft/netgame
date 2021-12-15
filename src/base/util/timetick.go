@@ -1,7 +1,7 @@
 package util
 
 import (
-	"base/log"
+	"netgame/base/log"
 	"runtime/debug"
 	"time"
 )

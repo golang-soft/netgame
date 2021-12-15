@@ -1,9 +1,9 @@
 package gnet
 
 import (
-	"command"
 	kcp "github.com/xtaci/kcp-go"
 	"math/rand"
+	"netgame/command"
 	"runtime"
 	"time"
 )

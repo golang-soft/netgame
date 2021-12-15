@@ -1,9 +1,9 @@
 package gnet
 
 import (
-	"base/util"
-	"command"
 	"github.com/golang/protobuf/proto"
+	"netgame/base/util"
+	"netgame/command"
 )
 
 func PackMessage(cmd proto.Message) *command.Message {
