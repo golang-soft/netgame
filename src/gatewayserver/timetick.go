@@ -1,7 +1,7 @@
 package main
 
 import (
-	"base/util"
+	"netgame/base/util"
 )
 
 type TimeTick struct {

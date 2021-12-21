@@ -1,10 +1,10 @@
 package main
 
 import (
-	"base/gnet"
-	"base/log"
-	"command"
 	"net"
+	"netgame/base/gnet"
+	"netgame/base/log"
+	"netgame/command"
 )
 
 var timetick *TimeTick

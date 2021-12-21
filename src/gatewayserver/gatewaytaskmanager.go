@@ -1,10 +1,10 @@
 package main
 
 import (
-	"base/log"
-	"base/util"
-	"command"
 	"github.com/golang/protobuf/proto"
+	"netgame/base/log"
+	"netgame/base/util"
+	"netgame/command"
 	"sync"
 )
 
